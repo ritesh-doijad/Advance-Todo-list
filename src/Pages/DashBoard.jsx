@@ -1,10 +1,10 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 import FullList from "../components/FullList";
+import Sidebar from "../components/SideBar";
 
 import TaskDetails from "../components/TaskDetails";
 import { closeSidebar } from "../redux/uiSlice";
-import Sidebar from "../components/Sidebar";
 
 const DashBoard = () => {
   const dispatch = useDispatch();
