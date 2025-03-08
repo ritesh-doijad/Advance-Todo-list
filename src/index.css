@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+/* Default light mode */
+body {
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  /* Dark mode */
+  body.dark-mode {
+    background-color: #121212;
+    color: white;
+  }
+  
